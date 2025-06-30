@@ -1,0 +1,14 @@
+1. create react project using npm create vite@latest
+2. create client folder for frontend as project name
+3. install the following packages : react-router-dom , lucide-react(for icons) , react-hot-toast(for notifications) , react-player(for playing videos) , tailwind css , clerk
+4. Use the google font as Outfit
+5. Use clerk for authentication such as login
+6. For creating footer , we had used the pre-built ui component
+7. create server folder for backend
+8. go to server in terminal and type npm init -y and then in package.json file , add type:module before scripts
+9. install following packages in server : express, cors, dotenv, mongoose, axios, cloudinary
+10. npm install nodemon --save-dev
+11. "server": "nodemon server.js",  add this in package.json in scripts
+12. for running backend , type command "npm run server",in server terminal
+13. Setup Clerk with express in backend(server file)
+14. setup the inngest and also add two keys of its in .env
